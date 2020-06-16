@@ -94,7 +94,7 @@ angular.module('ethExplorer', ['ngRoute','ui.bootstrap','filters','ngSanitize'])
 
         // begin AltSheets changes
         var web3 = new Web3();
-	web3.setProvider(new web3.providers.HttpProvider("http://"+GETH_HOSTNAME+":"+GETH_RPCPORT));
+	    web3.setProvider(new web3.providers.HttpProvider("http://"+GETH_HOSTNAME+":"+GETH_RPCPORT));
 	// end AltSheets changes
 
         $rootScope.web3=web3;
@@ -106,13 +106,13 @@ angular.module('ethExplorer', ['ngRoute','ui.bootstrap','filters','ngSanitize'])
             var now = new Date().getTime();
             while(new Date().getTime() < now + sleepDuration){ /* do nothing */ }
         }
-        var connected = false;
-        if(!web3.isConnected()) {
-            $('#connectwarning').modal({keyboard:false,backdrop:'static'})
-            $('#connectwarning').modal('show')
-            console.log(1)
-        }
-        else{
-            console.log(2)
-        }
+        // var connected = false;
+        // if(!web3.isConnected()) {
+        //     $('#connectwarning').modal({keyboard:false,backdrop:'static'})
+        //     $('#connectwarning').modal('show')
+        //     console.log(1)
+        // }
+        // else{
+        //     console.log(2)
+        // }
     });
