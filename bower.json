@@ -12,7 +12,7 @@
     "angular-loader": "~1.4.0",
     "angular-mocks": "~1.4.0",
     "html5-boilerplate": "~5.2.0",
-    "web3": "~0.20.0",
+    "web3": "^0.20.6",
     "angular-bootstrap": "~0.13.3",
     "angular-bootstrap-simple-chat": "^0.4.0"
   }

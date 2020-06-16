@@ -1,0 +1,64 @@
+
+> EthereumExplorerV2@0.1.0 prestart /root/explorer
+> npm install
+
+npm WARN lifecycle EthereumExplorerV2@0.1.0~postinstall: cannot run in wd EthereumExplorerV2@0.1.0 bower install --force (wd=/root/explorer)
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+
+audited 556 packages in 2.104s
+
+27 packages are looking for funding
+  run `npm fund` for details
+
+found 64 vulnerabilities (19 low, 11 moderate, 34 high)
+  run `npm audit fix` to fix them, or `npm audit` for details
+
+> EthereumExplorerV2@0.1.0 start /root/explorer
+> http-server ./app -a localhost -p 8000 -c-1
+
+[33mStarting up http-server, serving [39m[36m./app[39m[33m on port: [39m[36m8000[39m
+Hit CTRL-C to stop the server
+[Tue, 16 Jun 2020 05:32:01 GMT] "[36mGET[39m [36m/[39m" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+[Tue, 16 Jun 2020 05:32:03 GMT] "[36mGET[39m [36m/[39m" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+[Tue, 16 Jun 2020 05:32:22 GMT] "[36mGET[39m [36m/[39m" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+[Tue, 16 Jun 2020 05:32:24 GMT] "[36mGET[39m [36m/[39m" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+[Tue, 16 Jun 2020 05:33:04 GMT] "[36mGET[39m [36m/[39m" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Safari/605.1.15"
+[Tue, 16 Jun 2020 05:33:05 GMT] "[36mGET[39m [36m/styles/main.css[39m" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Safari/605.1.15"
+[Tue, 16 Jun 2020 05:33:05 GMT] "[36mGET[39m [36m/app.js[39m" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Safari/605.1.15"
+[Tue, 16 Jun 2020 05:33:05 GMT] "[36mGET[39m [36m/bower_components/angular-route/angular-route.js[39m" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Safari/605.1.15"
+[Tue, 16 Jun 2020 05:33:05 GMT] "[36mGET[39m [36m/bower_components/angular-sanitize/angular-sanitize.js[39m" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Safari/605.1.15"
+[Tue, 16 Jun 2020 05:33:05 GMT] "[36mGET[39m [36m/bower_components/web3/dist/web3.min.js[39m" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Safari/605.1.15"
+[Tue, 16 Jun 2020 05:33:05 GMT] "[36mGET[39m [36m/scripts/controllers/mainController.js[39m" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Safari/605.1.15"
+[Tue, 16 Jun 2020 05:33:05 GMT] "[36mGET[39m [36m/bower_components/angular-bootstrap/ui-bootstrap.min.js[39m" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Safari/605.1.15"
+[Tue, 16 Jun 2020 05:33:05 GMT] "[36mGET[39m [36m/scripts/controllers/addressInfosController.js[39m" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Safari/605.1.15"
+[Tue, 16 Jun 2020 05:33:05 GMT] "[36mGET[39m [36m/scripts/controllers/chainInfosController.js[39m" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Safari/605.1.15"
+[Tue, 16 Jun 2020 05:33:05 GMT] "[36mGET[39m [36m/scripts/controllers/blockInfosController.js[39m" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Safari/605.1.15"
+[Tue, 16 Jun 2020 05:33:05 GMT] "[36mGET[39m [36m/scripts/controllers/transactionInfosController.js[39m" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Safari/605.1.15"
+[Tue, 16 Jun 2020 05:33:35 GMT] "[36mGET[39m [36m/[39m" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+[Tue, 16 Jun 2020 05:33:35 GMT] "[36mGET[39m [36m/bower_components/angular-bootstrap/ui-bootstrap.min.js[39m" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+[Tue, 16 Jun 2020 05:33:35 GMT] "[36mGET[39m [36m/bower_components/web3/dist/web3.min.js[39m" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+[Tue, 16 Jun 2020 05:33:35 GMT] "[36mGET[39m [36m/app.js[39m" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+[Tue, 16 Jun 2020 05:33:35 GMT] "[36mGET[39m [36m/bower_components/angular-route/angular-route.js[39m" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+[Tue, 16 Jun 2020 05:33:35 GMT] "[36mGET[39m [36m/bower_components/angular-sanitize/angular-sanitize.js[39m" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+[Tue, 16 Jun 2020 05:33:35 GMT] "[36mGET[39m [36m/scripts/controllers/mainController.js[39m" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+[Tue, 16 Jun 2020 05:33:35 GMT] "[36mGET[39m [36m/scripts/controllers/addressInfosController.js[39m" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+[Tue, 16 Jun 2020 05:33:35 GMT] "[36mGET[39m [36m/scripts/controllers/chainInfosController.js[39m" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+[Tue, 16 Jun 2020 05:33:35 GMT] "[36mGET[39m [36m/scripts/controllers/transactionInfosController.js[39m" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+[Tue, 16 Jun 2020 05:33:35 GMT] "[36mGET[39m [36m/scripts/controllers/blockInfosController.js[39m" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+[Tue, 16 Jun 2020 05:33:36 GMT] "[36mGET[39m [36m/styles/main.css[39m" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+[Tue, 16 Jun 2020 05:33:46 GMT] "[36mGET[39m [36m/views/main.html[39m" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
+[Tue, 16 Jun 2020 05:33:49 GMT] "[36mGET[39m [36m/[39m" "Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.12(0x17000c30) NetType/4G Language/zh_CN"
+[Tue, 16 Jun 2020 05:33:52 GMT] "[36mGET[39m [36m/[39m" "Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.12(0x17000c30) NetType/4G Language/zh_CN"
+[Tue, 16 Jun 2020 05:33:52 GMT] "[36mGET[39m [36m/bower_components/angular-bootstrap/ui-bootstrap.min.js[39m" "Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.12(0x17000c30) NetType/4G Language/zh_CN"
+[Tue, 16 Jun 2020 05:33:52 GMT] "[36mGET[39m [36m/styles/main.css[39m" "Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.12(0x17000c30) NetType/4G Language/zh_CN"
+[Tue, 16 Jun 2020 05:33:52 GMT] "[36mGET[39m [36m/bower_components/angular-sanitize/angular-sanitize.js[39m" "Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.12(0x17000c30) NetType/4G Language/zh_CN"
+[Tue, 16 Jun 2020 05:33:52 GMT] "[36mGET[39m [36m/bower_components/web3/dist/web3.min.js[39m" "Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.12(0x17000c30) NetType/4G Language/zh_CN"
+[Tue, 16 Jun 2020 05:33:52 GMT] "[36mGET[39m [36m/bower_components/angular-route/angular-route.js[39m" "Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.12(0x17000c30) NetType/4G Language/zh_CN"
+[Tue, 16 Jun 2020 05:33:52 GMT] "[36mGET[39m [36m/app.js[39m" "Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.12(0x17000c30) NetType/4G Language/zh_CN"
+[Tue, 16 Jun 2020 05:33:53 GMT] "[36mGET[39m [36m/scripts/controllers/mainController.js[39m" "Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.12(0x17000c30) NetType/4G Language/zh_CN"
+[Tue, 16 Jun 2020 05:33:53 GMT] "[36mGET[39m [36m/scripts/controllers/addressInfosController.js[39m" "Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.12(0x17000c30) NetType/4G Language/zh_CN"
+[Tue, 16 Jun 2020 05:33:53 GMT] "[36mGET[39m [36m/scripts/controllers/chainInfosController.js[39m" "Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.12(0x17000c30) NetType/4G Language/zh_CN"
+[Tue, 16 Jun 2020 05:33:53 GMT] "[36mGET[39m [36m/scripts/controllers/blockInfosController.js[39m" "Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.12(0x17000c30) NetType/4G Language/zh_CN"
+[Tue, 16 Jun 2020 05:33:53 GMT] "[36mGET[39m [36m/scripts/controllers/transactionInfosController.js[39m" "Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.12(0x17000c30) NetType/4G Language/zh_CN"
+[Tue, 16 Jun 2020 05:34:42 GMT] "[36mGET[39m [36m/favicon.ico[39m" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Safari/605.1.15"
