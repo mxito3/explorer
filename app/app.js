@@ -2,7 +2,7 @@
 ///////////////////////////////
 // TODO: Put go into a config.js
 // But how to include a file from local?
-
+const Web3 = require('web3');
 var GETH_HOSTNAME	= "localhost";	// put your IP address!
 var APP_HOSTNAME 	= "See package.json --> scripts --> start: Change 'localhost'!!!";
 
@@ -90,7 +90,7 @@ angular.module('ethExplorer', ['ngRoute','ui.bootstrap','filters','ngSanitize'])
             //$locationProvider.html5Mode(true);
     }])
     .run(function($rootScope) {
-        var Web3 = require('web3');
+        
 
         // begin AltSheets changes
         var web3 = new Web3();
@@ -110,5 +110,9 @@ angular.module('ethExplorer', ['ngRoute','ui.bootstrap','filters','ngSanitize'])
         if(!web3.isConnected()) {
             $('#connectwarning').modal({keyboard:false,backdrop:'static'})
             $('#connectwarning').modal('show')
+            console.log(1)
+        }
+        else{
+            console.log(2)
         }
     });
